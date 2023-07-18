@@ -2,24 +2,57 @@
 
     header {
         margin: 0px auto;
-        padding: 40px;
+        /* padding: 40px; */
     
+    }
+    .primary-btn {
+        padding: 20px;
+        border-radius: 48px;
+        font-size: 1rem;
     }
     nav,
     .nav-items-container
     {
         flex-direction: column;
     }
+    
     nav{
         gap: 25px;
+        padding: 40px;
     }
     .follow-us-container{
         margin-top: 10px;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        background: none;
+    }
+    .banner-content {
+        width:100%;
+        /* padding-left: 0px; */
+        padding:40px;
+        background-image: url('../images/group\ 14.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .banner-image {
+        width:100%;
+        padding: 30px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    .banner-cont-title {
+        font-size: 2rem;
+    }
+    
+    .goat-title {
+        font-size: 4.5rem;
+    }
 
-
-
-
+.hide{
+    display: none;
+}
 
 
 
