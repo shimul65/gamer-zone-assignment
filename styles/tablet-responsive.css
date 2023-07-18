@@ -1,0 +1,18 @@
+@media screen and (min-width:576.1px) and (max-width:992px) {
+    header {
+        margin: 0px auto;
+        padding: 50px;
+    
+    }
+    nav,
+    .nav-items-container
+    {
+        flex-direction: column;
+    }
+    nav{
+        gap: 25px;
+    }
+    .follow-us-container{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,70 @@
+/* Work Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Shared Styles */
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+
+header {
+    border: 2px solid red;
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 40px 240px;
+
+}
+
+nav {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.logo-title span {
+    color: rgba(255, 66, 165, 1);
+}
+
+.nav-items-container {
+    display: flex;
+    align-items: center;
+    color: #3C354F;
+    font-size: 1.125em;
+    font-weight: 500;
+    list-style: none;
+    gap: 35px;
+
+}
+
+.nav-items-container a {
+    text-decoration: none;
+}
+
+.follow-us-container {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px;
+    gap: 18px;
+
+}
