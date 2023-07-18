@@ -6,14 +6,17 @@
     }
 
     nav,
-    .nav-items-container {
+    .nav-items-container,
+    .gamer-sec-container {
         flex-direction: column;
     }
+
     .primary-btn {
         padding: 20px 40px;
         border-radius: 48px;
         font-size: 1rem;
     }
+
     nav {
         gap: 25px;
         padding: 50px;
@@ -22,38 +25,62 @@
     .follow-us-container {
         margin-top: 10px;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
         background: none;
     }
+
     .banner-content {
-        width:100%;
+        width: 100%;
         padding: 20px 12%;
         background-image: url('../images/group\ 14.png');
         background-repeat: no-repeat;
         background-size: contain;
     }
+
     .banner-image {
-        width:80%;
+        width: 80%;
         padding: 30px;
     }
-    .banner-image img{
+
+    .banner-image img {
         width: 100%;
     }
+
     .banner-cont-title {
         font-size: 2rem;
     }
-    
+
     .goat-title {
         font-size: 4.5rem;
     }
-
-
-
+    .gamer-sec-container {
+        margin: 0px auto;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+    
+    .gamer-content {
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+    }
+    
+    
+    
     .hide {
         display: none;
     }
-}
 
+
+
+
+
+
+
+
+    
+}
 
 
