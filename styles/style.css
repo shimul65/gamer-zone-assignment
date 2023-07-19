@@ -60,16 +60,12 @@
 /* Header styles */
 
 header {
-    /* border: 2px solid red; */
     max-width: 1920px;
     margin: 0px auto;
-    /* padding: 40px 240px; */
-
 }
 
 /* nav ber styles */
 nav {
-    /* border: 2px solid purple; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +89,6 @@ nav {
     font-weight: 500;
     list-style: none;
     gap: 35px;
-
 }
 
 .nav-items-container a {
@@ -122,14 +117,12 @@ nav {
 /* banner styles */
 
 .banner-container {
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     background-image: url('../images/group\ 14.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
-
 
 .banner-content {
     width: 50%;
@@ -175,7 +168,6 @@ nav {
 /* gamer section styles */
 
 .gamer-sec-container {
-    /* border: 2px solid red; */
     max-width: 1920px;
     margin: 0px auto;
     padding: 50px 240px;
@@ -217,7 +209,6 @@ nav {
 /* Online games section styles */
 
 .online-games {
-    /* border: 2px solid red; */
     max-width: 1920px;
     margin: 0px auto;
     padding: 80px 240px;
@@ -247,10 +238,50 @@ nav {
     width: 100%;
 }
 
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    display: block;
+}
+
+.play-btn-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FF42A5;
+    margin-top: 20px;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    border-radius: 16px;
+    border: 2px solid #FF42A5;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+}
+
+.overlay img {
+    width: 20%;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
 /* play instantly & play games online section styles */
 
 .play {
-    /* border: 2px solid red; */
     max-width: 1920px;
     margin: 0px auto;
     padding: 20px 240px 120px;
@@ -282,13 +313,11 @@ nav {
 }
 
 .img-tatto {
-    /* border: 2px solid red; */
     width: 50%;
     position: absolute;
     bottom: 0px;
     right: 70%;
     top: 55%;
-    /* margin-right: 400px;     */
 }
 
 .img-tatto img {
@@ -313,15 +342,12 @@ nav {
     max-width: 1920px;
     margin: 0px auto;
     padding: 100px 240px;
-    /* border: 2px solid red; */
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .explore-container {
     display: flex;
-    /* width: 100%; */
     justify-content: center;
-    /* align-items: center; */
     gap: 28px;
     flex-wrap: wrap;
 }
@@ -335,10 +361,6 @@ nav {
     background: #FFF;
     box-shadow: 1px 1px 5px rgb(226, 224, 224);
 }
-
-/* .explore-content img{
-    max-width: 60px;
-} */
 
 .explore-content:hover {
     border: 1px solid #FF42A5;
@@ -358,20 +380,16 @@ nav {
 footer {
     background: #0B0223;
     color: white;
-    /* max-width: 1920px; */
     margin: 0px auto;
-
 }
 
 .footer-content {
-    /* border: 2px solid white; */
     max-width: 1920px;
     margin: 0 auto;
     padding: 100px 240px 50px;
 }
 
 .footer-logo {
-    /* border: 2px solid red; */
     justify-content: center;
     margin-bottom: 50px;
     width: 100%;
@@ -381,13 +399,11 @@ footer {
 .follow-icon,
 .terms,
 .all-rights {
-    /* border: 2px solid red; */
     justify-content: center;
     display: flex;
     gap: 60px;
     padding: 15px 0px;
     margin-bottom: 20px;
-    /* height: 50px; */
 }
 
 .foot-item a {

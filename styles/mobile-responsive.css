@@ -44,7 +44,6 @@
 
     .banner-content {
         width: 100%;
-        /* padding-left: 0px; */
         padding: 40px;
         background-image: url('../images/group\ 14.png');
         background-repeat: no-repeat;
@@ -177,12 +176,8 @@
     }
 
     .foot-item,
-    .follow-icon
-     {
-        /* border: 2px solid red; */
-        /* justify-content: center; */
+    .follow-icon {
         align-items: center;
-        /* display: flex; */
         display: grid;
         text-align: center;
         grid-template-columns: repeat(3, 1fr);
@@ -192,7 +187,6 @@
         margin-bottom: 15px;
         margin-top: 25px;
         text-align: center;
-        /* height: 50px; */
     }
 
     .foot-item a {
@@ -203,26 +197,31 @@
         width: 80%;
         margin-bottom: 10px;
     }
-    .terms{
+
+    .terms {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        text-align:left;
+        text-align: left;
         gap: 10px;
         padding: 5px 25px;
         margin-bottom: 12px;
         margin-top: 12px;
         justify-content: space-between;
     }
-    .terms-text-align{
+
+    .terms-text-align {
         text-align: right;
     }
-    .all-rights{
+
+    .all-rights {
         text-align: center;
         margin-top: 10px;
     }
-    .all-rights span{
-        display:block;
+
+    .all-rights span {
+        display: block;
     }
+
     .hide {
         display: none;
     }
