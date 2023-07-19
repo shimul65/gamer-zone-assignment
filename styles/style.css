@@ -352,6 +352,11 @@ nav {
     flex-wrap: wrap;
 }
 
+.explore-container button {
+    border: none;
+    background: none;
+}
+
 .explore-content {
     display: flex;
     align-items: center;
