@@ -24,8 +24,7 @@
     .nav-items-container,
     .gamer-sec-container,
     .card-container,
-    .play-container
-     {
+    .play-container {
         flex-direction: column;
     }
 
@@ -93,84 +92,139 @@
         font-size: 1.5rem;
     }
 
-    .online-games{
+    .online-games {
         padding: 0px 18px;
     }
-    .card-container{
+
+    .card-container {
         margin: 20px 0px 0px;
     }
-    .card-content{
+
+    .card-content {
         padding: 10px;
     }
+
     .play {
         padding: 20px;
     }
-    .play-content{
+
+    .play-content {
         max-width: 500px;
         text-align: center;
     }
-    .play-content p{
+
+    .play-content p {
         margin-bottom: 25px;
     }
+
     .play-image {
         width: 80%;
         margin-left: 25px;
         margin-bottom: 10px;
     }
-    .play-image2{
-        
+
+    .play-image2 {
+
         width: 80%;
         margin-right: 25px;
         margin-bottom: 10px;
     }
-    .explore{
-        margin:25px auto;
+
+    .explore {
+        margin: 25px auto;
         padding: 10px;
         background: none;
     }
-    .explore-container{
+
+    .explore-container {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 7px;
-        width:100%;
+        width: 100%;
     }
-    .explore-content{
-        width:100%;
+
+    .explore-content {
+        width: 100%;
         gap: 8px;
         padding: 5px;
         margin: 10px auto;
     }
-    .explore-content img
-    {
-    width: 30%;
+
+    .explore-content img {
+        width: 30%;
     }
+
     .explore-title {
-        font-size:10px;
+        font-size: 10px;
     }
 
+    .footer-content {
+        padding: 50px 10px 25px;
+    }
 
+    .footer-logo {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo img {
+        width: 25%;
+    }
+
+    .foot-logo-title {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .foot-item,
+    .follow-icon
+     {
+        /* border: 2px solid red; */
+        /* justify-content: center; */
+        align-items: center;
+        /* display: flex; */
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 10px;
+        padding: 0px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        text-align: center;
+        /* height: 50px; */
+    }
+
+    .foot-item a {
+        font-size: 13px;
+    }
+
+    .follow-icon img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align:left;
+        gap: 10px;
+        padding: 5px 25px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        justify-content: space-between;
+    }
+    .terms-text-align{
+        text-align: right;
+    }
+    .all-rights{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .all-rights span{
+        display:block;
+    }
     .hide {
         display: none;
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
