@@ -15,6 +15,11 @@
 .section-title {
     font-size: 3rem;
     font-weight: 700;
+    color: #0B0223;
+    line-height: 60px;
+}
+
+.linear-title {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -42,6 +47,16 @@
     color: #534C64;
     cursor: pointer;
     box-shadow: 2px 2px 5px #534C64;
+    padding: 20px 40px;
+    border-radius: 48px;
+}
+
+.nav-items-container>a:hover {
+    color: #534C64;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #534C64;
+    padding: 15px 20px;
+    border-radius: 40px;
 }
 
 /* Header styles */
@@ -165,7 +180,8 @@ nav {
     padding: 50px 240px;
     display: flex;
     align-items: center;
-    background:linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    ;
 }
 
 .gamer-sec-img {
@@ -181,15 +197,108 @@ nav {
     text-align: end;
     padding-left: 50px;
 }
-.gamer-title{
+
+.gamer-content h2 {
     margin-bottom: 25px;
 }
-.know-btn{
+
+.know-btn {
     margin: 28px 0px;
 }
+
 .quote {
     color: #534C64;
     font-size: 2rem;
     font-weight: 700;
     margin-top: 5px;
+}
+
+/* Online games section styles */
+
+.online-games {
+    border: 2px solid red;
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 120px 240px;
+    text-align: center;
+}
+
+.online-games p {
+    margin-top: 15px;
+}
+
+.card-container {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-content {
+    width: 100%;
+}
+
+.card-content p {
+    text-align: left;
+}
+
+.card-content img {
+    width: 100%;
+}
+
+/* play instantly & play games online section styles */
+
+.play {
+    border: 2px solid red;
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 120px 240px;
+}
+
+.play-container {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-content{
+    max-width: 360px;
+    text-align: right;
+    margin: 0px auto;
+}
+.play-content p{
+    margin-top: 25px;
+}
+.play-image {
+    border: 2px solid violet;
+    width: 50%;
+    position: relative;
+}
+
+.play-image>img {
+    width: 100%;
+}
+
+.img-tatto {
+    /* border: 2px solid red; */
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 70%;
+    top: 55%;
+    /* margin-right: 400px;     */
+}
+
+.img-tatto img {
+    width: 100%;
+}
+.play-games-container{
+    flex-direction: row-reverse;
+}
+.play-games-content{
+    text-align: left;
+}
+.tatto-2 {
+    left: 70%;
 }

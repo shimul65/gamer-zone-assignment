@@ -3,84 +3,133 @@
     header {
         margin: 0px auto;
         /* padding: 40px; */
-    
+
     }
+
     .section-title {
         font-size: 2.5rem;
     }
+
     .section-desc {
         font-size: 1rem;
     }
+
     .primary-btn {
         padding: 20px;
         border-radius: 48px;
         font-size: 1rem;
     }
+
     nav,
     .nav-items-container,
-    .gamer-sec-container
-    {
+    .gamer-sec-container,
+    .card-container,
+    .play-container
+     {
         flex-direction: column;
     }
-    
-    nav{
+
+    nav {
         gap: 25px;
         padding: 40px;
     }
-    .follow-us-container{
+
+    .follow-us-container {
         margin-top: 10px;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
         background: none;
     }
+
     .banner-content {
-        width:100%;
+        width: 100%;
         /* padding-left: 0px; */
-        padding:40px;
+        padding: 40px;
         background-image: url('../images/group\ 14.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
+
     .banner-image {
-        width:100%;
+        width: 100%;
         padding: 30px;
     }
-    .banner-image img{
+
+    .banner-image img {
         width: 100%;
     }
+
     .banner-cont-title {
         font-size: 2rem;
     }
-    
+
     .goat-title {
         font-size: 4.5rem;
     }
+
     .icon-desc {
         margin: 10px 0px;
     }
-    .banner-btn{
+
+    .banner-btn {
         margin-top: 20px;
     }
+
     .gamer-sec-container {
         margin: 30px auto;
-        padding:0px;
-        background:none;
+        padding: 0px;
+        background: none;
     }
+
     .gamer-content {
         width: 100%;
         text-align: center;
         padding: 20px;
     }
+
     .quote {
         font-size: 1.5rem;
     }
 
-.hide{
-    display: none;
+    .online-games{
+        padding: 0px 18px;
+    }
+    .card-container{
+        margin: 20px 0px 0px;
+    }
+    .card-content{
+        padding: 10px;
+    }
+    .play {
+        padding: 20px;
+    }
+    .play-content{
+        max-width: 500px;
+        text-align: center;
+    }
+    .play-content p{
+        margin-bottom: 25px;
+    }
+    .play-image {
+        width: 80%;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .play-image2{
+        
+        width: 80%;
+        margin-right: 25px;
+        margin-bottom: 10px;
+    }
+
+
+    .hide {
+        display: none;
+    }
+
 }
-
-
 
 
 

@@ -7,7 +7,9 @@
 
     nav,
     .nav-items-container,
-    .gamer-sec-container {
+    .gamer-sec-container,
+    .play-container
+    {
         flex-direction: column;
     }
 
@@ -66,13 +68,46 @@
         text-align: center;
         padding: 25px;
     }
-    
-    
+    .online-games{
+        padding: 18px 40px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px 0px 0px;
+    }
+    .card-content{
+        padding: 10px;
+    }
+    .card-content p {
+        text-align: center;
+    }
+    .play {
+        padding:20px;
+    }
+    .play-content{
+        max-width: 400px;
+        text-align: center;
+    }
+    .play-content p{
+        margin-bottom: 25px;
+    }
+    .play-image {
+        width: 70%;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+    .play-image2{
+        
+        width: 70%;
+        margin-right: 25px;
+        margin-bottom: 10px;
+    }
     
     .hide {
         display: none;
     }
-
+}
 
 
 
