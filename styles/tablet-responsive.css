@@ -103,6 +103,27 @@
         margin-right: 25px;
         margin-bottom: 10px;
     }
+    .explore{
+        margin:40px auto 20px;
+        padding: 15px;
+        /* background: none; */
+    }
+    .explore-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        width:100%;
+    }
+    .explore-content{
+        width:100%;
+        gap: 8px;
+        padding: 10px;
+        margin: 8px auto;
+    }
+    .explore-content img
+    {
+    width: 30%;
+    }
     
     .hide {
         display: none;

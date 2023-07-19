@@ -123,6 +123,30 @@
         margin-right: 25px;
         margin-bottom: 10px;
     }
+    .explore{
+        margin:25px auto;
+        padding: 10px;
+        background: none;
+    }
+    .explore-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 7px;
+        width:100%;
+    }
+    .explore-content{
+        width:100%;
+        gap: 8px;
+        padding: 5px;
+        margin: 10px auto;
+    }
+    .explore-content img
+    {
+    width: 30%;
+    }
+    .explore-title {
+        font-size:10px;
+    }
 
 
     .hide {
@@ -150,4 +174,3 @@
 
 
 
-}
